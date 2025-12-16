@@ -44,13 +44,14 @@ if response.status_code == 200:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Countries Information</title>
 </head>
-<body>
+<body style="background-color: #FAAFBA;">
+
     <h1>Countries and Their Capitals</h1>
-    <table border="1" cellpadding="10" cellspacing="0">
-        <tr bgcolor="#cccccc">
-            <th>№</th>
-            <th>Country</th>
-            <th>Capital</th>
+    <table border="1" cellpadding="10" cellspacing="0" bgcolor ="#FFFFFF">
+        <tr bgcolor="#FFE4C4">
+            <th >№</th>
+            <th >Country</th>
+            <th ">Capital</th>
         </tr>
         {table_rows}
     </table>
